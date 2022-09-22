@@ -1,17 +1,16 @@
-package com.example.gdroom_b_10688.room
+package com.example.gdroom_b_10688
 
 import android.annotation.SuppressLint
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.lifecycle.viewmodel.savedstate.R
 import androidx.recyclerview.widget.RecyclerView
+import com.example.gdroom_b_10688.room.Note
 import kotlinx.android.synthetic.main.adapter_note.view.*
 
 class NoteAdapter (private val notes: ArrayList<Note>, private val
-listener: OnAdapterListener) :
+listener: OnAdapterListener
+) :
     RecyclerView.Adapter<NoteAdapter.NoteViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int):
             NoteViewHolder {

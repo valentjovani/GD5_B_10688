@@ -1,10 +1,11 @@
-package com.example.gdroom_b_10688.room
+package com.example.gdroom_b_10688
 
 import android.os.Bundle
 import android.view.View
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.gdroom_b_10688.R
+import com.example.gdroom_b_10688.room.Constant
+import com.example.gdroom_b_10688.room.Note
+import com.example.gdroom_b_10688.room.NoteDB
 import kotlinx.android.synthetic.main.activity_edit.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
